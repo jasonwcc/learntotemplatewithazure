@@ -1,6 +1,6 @@
 @description('Base name of the resource such as web app name and app service plan ')
 @minLength(2)
-param webAppName string = 'AzureLinuxApp'
+param webAppName string = 'jlinuxwebapp-202501012203'
 
 @description('The SKU of App Service Plan ')
 param sku string = 'S1'
